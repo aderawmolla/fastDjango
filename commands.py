@@ -4,3 +4,5 @@ python3 manage.py createsuperuser
 python3 manage.py migrate
 python3 manage.py startapp appname
 python manage.py changepassword <username>
+django-admin startproject mysite
+python manage.py startapp polls
