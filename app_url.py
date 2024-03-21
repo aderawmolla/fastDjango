@@ -11,6 +11,8 @@ urlpatterns = [
  from django.urls import path
 
 from . import views
+# let say there may be many apps taken into consideration we should use this
+app_name = "polls"
 
 urlpatterns = [
     # ex: /polls/
