@@ -7,3 +7,8 @@
 {% else %}
     <p>No polls are available.</p>
 {% endif %}
+
+
+                   # referencing to another app
+<li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+<li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
