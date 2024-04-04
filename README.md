@@ -1,4 +1,4 @@
-# This content used as the documentation to develope django fastly mainly to develope backend in a day with no any failure
+### This content used as the documentation to develope django fastly mainly to develope backend in a day with no any failure
 <h1>https://betterstack.com/community/guides/scaling-python/dockerize-django/</h1>
 
 Docker Compose is a tool for defining and running multi-container Docker applications. It uses YAML files to configure the application's services and then creates and starts all the containers with a single command. Here are some of the common commands in Docker Compose and their functions:
@@ -26,3 +26,7 @@ docker-compose logs: Displays log output from services. You can use it to monito
 docker-compose exec: Executes a command in a running container. It allows you to run commands in specific containers.
 
 docker-compose pull: Pulls images for services defined in the docker-compose.yml file. It ensures that the images used by your services are up to date.
+
+
+### 5 Month Postgress ERORR solved
+https://vishalvyas.com/how-to-resolve-pg-dump-error-aborting-because-of-server-version-mismatch/
